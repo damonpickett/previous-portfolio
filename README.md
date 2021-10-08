@@ -21,18 +21,23 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+I am building a portfolio website to showcase my work as a front-end developer. The site will be built with a minimal,mobile-first design to allow for clarity and easy navigation.
+
+There will be an api to inform the user of the weather in their area. I will use JavaScript to convert the hamburger menu icon into a navigation menu. I will also use JavaScript to emphasize the images on the projects page when the user hovers over them with a mouse.
 
 ## Google Sheet
 
-Include link to your google sheet here.  Here is the sample [Joe had used in class](https://docs.google.com/spreadsheets/d/15PmioBi2dQEkewpqI7MDkDpvcVF0Trw8vmarAQbwoHk/edit#gid=0) 
+[SEI Portfolio Projects](https://docs.google.com/spreadsheets/d/1LcmxPONZ1wRXnLFK3XLBtLMO6NpoHmLm9k_sE8OE_X4/edit?usp=sharing)
 
 ## Wireframes
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
 
-- [Mobile](https://i.imgur.com/P3iBEZf.jpg)
-- [Desktop](https://i.imgur.com/xpOWo0E.jpg)
+- [Mobile/Desktop Home Page](https://imgur.com/UafBFRD)
+- [Mobile/Desktop About Page](https://imgur.com/a/53unzIc)
+- [Mobile/Desktop Contact Page](https://imgur.com/a/UNVwHGI)
+- [Mobile Projects Page](https://imgur.com/a/4LY2p7I)
+- [Desktop Projects Page](https://imgur.com/a/SobzyHg)
 
 Wireframing Resources:
 
@@ -51,6 +56,8 @@ Now draw a vertical line on the y axis.  The top of this line should have `High`
 Now create a separate list starting with A and assign it one of the features.  Continue to assign each feature a letter.  Once complete add each letter to the matrix assigning based on what your feel it's prioirty is an how long it will take to implement. If any one feature takes longer than 2hrs to complete than break it down into smaller tasks and reassign them a new letter. 
 
 Once complete tally up the time and determine how long the project will take to complete. Now break those features into MVP and PostMVP so you can guarantee you will have a fully functioning project to demo. 
+
+[Damon's Priority Matrix](https://imgur.com/a/7k4lXx2)
 
 ### MVP/PostMVP - 5min
 
@@ -76,25 +83,24 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Hamburger | H | 1hr | hr |
-| Project Previews | H | 3hr | hr |
-| Regular Nav | H | 1hr | hr |  
-| Adding Form | H | 1.5hr|  hr | 
-| Other sections and flex| M | 3hr | hr|
-| Working with API | H | 3hrs|  hr | 
-| Responsive | H | 3hr | hr | hr |
-| Social Media Icons | L | 1hr |  hr |
-| Total | H | 15.5hrs| hrs |
+| Nav Bar ul | H | 1.5hr | hr |
+| Nav Bar Hamburger | H | 1.5hr | hr |
+| Apply Flex to Nav Bar | H | 1.5hr | hr |
+| Make nav responsive | H | 1.5hr | hr
+| Header Img/Title - Flex | H | 1.5hr|  hr | 
+| CSS Grid for Project Page | H | 2.5hr | hr |
+| Make grid responsive | H | 2.5hr | hr |
+| JS Carousel - Research | H | 2hrs|  hr | 
+| JS Carousel - Implementation | H | 2hr | hr | hr |
+| Weather API research | L | 2hr | -hr | hr |
+| Weather API impementation | L | 2hr | hr |
+| Total | H | 20.5hrs| hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Project Hover | L | 3hr | -hr | hr |
-| Banner letters wiggle | L | 1hr | hr |
-| Interactive Banner | M | 4hr | hr |
-| Materialize | H | 4hr | -hr | hr |
-| Bootstrap | H | 4hr | hr |
-| Make own icon | L | 4hr | hr |
+| Make own logo research | L | 2hr | hr |
+| Make own logo implementation | L | 2hr | hr |
 | Total | H | 20hrs| hrs |
 
 ## Additional Libraries
