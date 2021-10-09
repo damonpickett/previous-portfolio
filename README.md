@@ -11,8 +11,8 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Day 1| Project Description | Incomplete
-|Day 1| Wireframes / Priority Matrix / Timeline | Incomplete
+|Day 1| Project Description | Complete
+|Day 1| Wireframes / Priority Matrix / Timeline | Complete
 |Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
 |Day 4| MVP & Bug Fixes | Incomplete
 |Day 5| Final Touches | Incomplete
@@ -92,16 +92,16 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Make grid responsive | H | 2.5hr | hr |
 | JS Carousel - Research | H | 2hrs|  hr | 
 | JS Carousel - Implementation | H | 2hr | hr | hr |
-| Weather API research | L | 2hr | -hr | hr |
-| Weather API impementation | L | 2hr | hr |
-| Total | H | 20.5hrs| hrs |
+| Total | H | 16.5hrs| hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
 | Make own logo research | L | 2hr | hr |
 | Make own logo implementation | L | 2hr | hr |
-| Total | H | 20hrs| hrs |
+| Weather API research | L | 2hr | -hr | hr |
+| Weather API impementation | L | 2hr | hr |
+| Total | H | 8hrs| hrs |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project. 
