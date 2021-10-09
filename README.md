@@ -83,7 +83,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Core Application Structure - HTML | H | 2hr | hr |
+| Core Application Structure - HTML | H | 2hr | 45min |
 | Core Application Structure - CSS | H | 2hr | hr |
 | Nav Bar ul | H | 1.5hr | hr |
 | Nav Bar Hamburger | H | 1.5hr | hr |
