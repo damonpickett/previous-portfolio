@@ -84,7 +84,8 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
 | Core Application Structure - HTML | H | 2hr | 45min |
-| Add filler content to HTML | H | 1hr | hr |
+| Add filler content to HTML | H | 1hr | 45min |
+| Resize profile pic and hamburger image | H | 1hr | hr |
 | Core Application Structure - CSS | H | 2hr | hr |
 | Nav Bar ul | H | 1.5hr | hr |
 | Nav Bar Hamburger | H | 1.5hr | hr |
@@ -95,7 +96,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Make grid responsive | H | 2.5hr | hr |
 | JS Carousel - Research | H | 2hrs|  hr | 
 | JS Carousel - Implementation | H | 2hr | hr | hr |
-| Total | H | 21.5hrs| hrs |
+| Total | H | 22.5hrs| hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
