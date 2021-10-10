@@ -23,6 +23,7 @@ h1, h2, h3, h4 {
 
 #nav-bar {
     background: black;
+    position: relative;
 }
 
 #nav-bar #h1-logo {
@@ -30,9 +31,9 @@ h1, h2, h3, h4 {
     font-family: 'Source Code Pro', monospace;
 }
 
-/* #hamburger {
-
-} */
+#hamburger {
+    z-index: 1;
+}
 
 /* ul #main-nav {
     
@@ -53,9 +54,10 @@ h1, h2, h3, h4 {
 
 } */
 
-/* #profile-pic {
-
-} */
+img#profile-pic {
+    border: 3px solid black;
+    border-radius: 50%;
+}
 
 /* header h2, h3 {
 
@@ -87,7 +89,7 @@ h1, h2, h3, h4 {
 } */
 
 /* #bottom-nav ul li a {
-    
+
 } */
 
 
