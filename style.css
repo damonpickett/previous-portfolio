@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300&family=Source+Code+Pro:wght@300&display=swap');
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Source Code Pro', monospace; */
+
+/* UNIVERSAL STYLES */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* #wrapper {
+    display: grid;
+} */
+
+/* TOP NAVIGATION  */
+
+#nav-bar {
+    background: black;
+}
+
+#nav-bar #h1-logo {
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+}
+
+/* #hamburger {
+
+} */
+
+/* ul #main-nav {
+    
+}; */
+
+/* #main-nav li {
+
+} */
+
+#main-nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* HEADER */
+
+/* header {
+
+} */
+
+/* #profile-pic {
+
+} */
+
+/* header h2, h3 {
+
+} */
+
+/* MAIN CONTENT */
+
+/* main {
+
+} */
+
+/* main h2 {
+
+} */
+
+/* BOTTOM NAV */
+
+/* #bottom-nav {
+
+} */
+
+/* #bottom-nav ul {
+
+} */
+
+/* #bottom-nav ul li {
+
+
+} */
+
+/* #bottom-nav ul li a {
+    
+} */
+
+
+
