@@ -87,17 +87,16 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Add filler content to HTML | H | 1hr | 45min |
 | Resize profile pic and hamburger image | H | 1hr | 1hr |
 | Core Application Structure - CSS | H | 2hr | 20min |
-| Apply CSS grid | H | 1.5hr | 1hr |
-| Nav Bar ul | H | 1.5hr | hr |
+| Apply CSS grid | H | 1.5hr | 2hr |
+| Nav Bar ul | H | 1.5hr | 1hr |
 | Nav Bar Hamburger | H | 1.5hr | hr |
-| Apply Flex to Nav Bar | H | 1.5hr | hr |
-| Make nav responsive | H | 1.5hr | hr
+| Apply Flex to Nav Bar | H | 1.5hr | 1.5hr |
 | Header Img/Title - Flex | H | 1.5hr|  hr | 
 | CSS Grid for Project Page | H | 2.5hr | hr |
 | Make grid responsive | H | 2.5hr | hr |
 | JS Carousel - Research | H | 2hrs|  hr | 
 | JS Carousel - Implementation | H | 2hr | hr | hr |
-| Total | H | 22.5hrs| hrs |
+| Total | H | 21hrs| hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
