@@ -89,14 +89,16 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Core Application Structure - CSS | H | 2hr | 20min |
 | Apply CSS grid | H | 1.5hr | 2hr |
 | Nav Bar ul | H | 1.5hr | 1hr |
-| Nav Bar Hamburger | H | 1.5hr | hr |
+| Nav Bar Hamburger | H | 1.5hr | 1hr |
 | Apply Flex to Nav Bar | H | 1.5hr | 1.5hr |
-| Header Img/Title - Flex | H | 1.5hr|  hr | 
+| Header Img/Title - Flex | H | 1.5hr|  1.5hr |
+| Format/position all elements for all pages mobile-first | H | 1.5hr|  45min |
+| Create CSS Grid for projects page mobile first | H | 1.5hr|  45min |
 | CSS Grid for Project Page | H | 2.5hr | hr |
 | Make grid responsive | H | 2.5hr | hr |
 | JS Carousel - Research | H | 2hrs|  hr | 
 | JS Carousel - Implementation | H | 2hr | hr | hr |
-| Total | H | 21hrs| hrs |
+| Total | H | 23hrs| hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |

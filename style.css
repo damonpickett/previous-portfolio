@@ -38,9 +38,9 @@ h1, h2, h3, h4 {
     padding-left: 15px;
 }
 
-/* #hamburger {
-    
-} */
+#hamburger {
+    margin-right: 10px; 
+}
 
 ul#main-nav {
     padding-right: 15px;
@@ -96,6 +96,16 @@ main {
     text-align: center;
 }
 
+#contact {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* #projects {
+
+} */
+
 /* main h2 {
 
 } */
@@ -108,11 +118,9 @@ main {
 }
 
 #bottom-nav ul {
-    /* display: flex;
-    justify-content: center; */
     list-style-type: none;
     text-align: center;
-    margin: 0 0 15px 0;
+    margin: 30px 0 15px 0;
     padding: 0;
 }
 
@@ -124,10 +132,6 @@ main {
 #bottom-nav ul li a {
     text-decoration: none;
     color: blue;
-}
-
-#credit {
-    text-align: center;
 }
 
 
