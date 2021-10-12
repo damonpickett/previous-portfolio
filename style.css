@@ -93,7 +93,6 @@ header {
     alight-items: center;
     padding-top: 15px;
     text-align: center;
-    margin-bottom: 35px;
 }
 
 /* #profile-pic {
@@ -112,6 +111,10 @@ header #header-headers {
 
 /* MAIN CONTENT */
 
+/* main h2 {
+
+} */
+
 #main-wrapper {
     grid-column: 1/7;
     grid-row: 3/4;
@@ -122,19 +125,15 @@ main {
     text-align: center;
 }
 
+/* main#projects {
+    
+} */
+
 #contact {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
-
-/* #projects {
-
-} */
-
-/* main h2 {
-
-} */
 
 /* BOTTOM NAV */
 
