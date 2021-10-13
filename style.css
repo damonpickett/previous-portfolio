@@ -53,11 +53,12 @@ h1, h2, h3, h4 {
     margin: 50px 0 0 -25px;
 }
 
-#nav-bar #h1-logo {
+#nav-bar #h1-logo a{
     color: white;
     font-family: 'Source Code Pro', monospace;
     margin: 0;
     padding-left: 15px;
+    text-decoration: none;
 }
 
 .toggle #hamburger {
@@ -125,6 +126,7 @@ main h2 {
 main {
     padding: 0 10px 0 10px;
     text-align: center;
+    margin-bottom: 100px;
 }
 
 .project img {
@@ -191,7 +193,6 @@ main {
 
     #profile-pic {
         display: inline;
-        margin-left
     }
     
     header #profile-pic img {
@@ -204,6 +205,14 @@ main {
         margin: 10px;
         text-align: left;
         
+    }
+
+    main p, ul {
+        text-align: left;
+    }
+
+    main#projects p {
+        text-align: center;
     }
 
 }
