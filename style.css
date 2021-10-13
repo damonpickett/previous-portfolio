@@ -9,6 +9,7 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
+    font-size: 1.3rem;
 }
 
 h1, h2, h3, h4 {
@@ -18,7 +19,6 @@ h1, h2, h3, h4 {
 #wrapper {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 70px repeat(5, 1fr);
 }
 
 /* TOP NAVIGATION  */
@@ -28,7 +28,7 @@ h1, h2, h3, h4 {
     display: flex;
     grid-column: 1/7;
     justify-content: space-between;
-    /* align-items: center; */
+    align-items: center;
     position: relative;
     padding-top: 15px;
 }
@@ -50,7 +50,7 @@ h1, h2, h3, h4 {
 
 .nav-extend ul#main-nav li {
     display:block;
-    margin: 85px 0 0 -25px;
+    margin: 50px 0 0 -25px;
 }
 
 #nav-bar #h1-logo {
@@ -61,14 +61,13 @@ h1, h2, h3, h4 {
 }
 
 .toggle #hamburger {
-    margin-right: 10px;
+    margin: 0 10px 10px 0;
 }
 
 ul#main-nav {
     padding-right: 15px;
     display: none;
     font-size: 1.3rem;
-
 }
 
 #main-nav li {
@@ -87,17 +86,17 @@ ul#main-nav {
 header {
     grid-column: 1/7;
     grid-row: 2/3;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; */
     alight-items: center;
-    padding-top: 15px;
+    padding-top: 25px;
     text-align: center;
 }
 
-/* #profile-pic {
-    
-} */
+#profile-pic {
+    display: inline;
+}
 
 header #profile-pic img {
     border: 3px solid black;
@@ -111,13 +110,16 @@ header #header-headers {
 
 /* MAIN CONTENT */
 
-/* main h2 {
-
-} */
+main h2 {
+    text-align: left;
+    padding-bottom: 5px;
+    border-bottom: solid 2px rgb(180, 178, 178);
+}
 
 #main-wrapper {
     grid-column: 1/7;
     grid-row: 3/4;
+    padding: 0 50px;
 }
 
 main {
@@ -125,9 +127,10 @@ main {
     text-align: center;
 }
 
-/* main#projects {
-    
-} */
+.project img {
+    border: solid 2px grey;
+    border-radius: 3px;
+}
 
 #contact {
     list-style-type: none;
@@ -159,12 +162,49 @@ main {
     color: blue;
 }
 
-/* @media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
 
-    .toggle {
+
+    .project {
+        margin-bottom: 55px;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+    .toggle #hamburger {
+        display: none;
+    }
+
+    ul#main-nav {
         display: flex;
     }
-} */
 
+    ul#main-nav li {
+        padding-right: 55px;
+    }
 
+    header {
+        padding-left: 60px;
+    }
+
+    #profile-pic {
+        display: inline;
+        margin-left
+    }
+    
+    header #profile-pic img {
+        float:left;
+        margin-right: 30px;
+    }
+    
+    header #header-headers {
+        display: inline;
+        margin: 10px;
+        text-align: left;
+        
+    }
+
+}
 
