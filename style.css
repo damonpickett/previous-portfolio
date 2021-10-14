@@ -42,8 +42,6 @@ h1, h2, h3, h4 {
     /* flex-wrap:wrap; */
 }
 
-
-
 .nav-extend ul#main-nav {
     display: block;
     /* text-align: center; */
@@ -94,10 +92,6 @@ ul#main-nav {
 }
 
 #main-nav li a:hover {
-    text-decoration: underline;
-}
-
-#main-nav li a:active {
     text-decoration: underline;
 }
 
@@ -196,6 +190,32 @@ main {
         margin-bottom: 55px;
     }
 
+    .carousel-container {
+        width: 650px;
+        overflow: 40px auto;
+        margin: 50px auto;
+    }
+    
+    .carousel-slide {
+        width: 600px;
+        height: 251px;
+        border: #666 solid 1px
+    }
+    
+    .carousel-slide img {
+        display: none;
+        width: 600px;
+        height: 251px;
+    }
+
+    .carousel-slide img.active {
+        display:inline-block;
+    }
+
+    #buttons {
+        text-align:center;
+    }
+
 }
 
 @media only screen and (min-width: 1024px) {
@@ -229,15 +249,11 @@ main {
         display: inline;
         margin: 10px;
         text-align: left;
-        
     }
 
-    main p, ul {
+    main p, main ul {
         text-align: left;
-    }
-
-    main {
-        width: 1000px;
+        /* width: 1000px; */
     }
 
     main#projects {
@@ -246,6 +262,11 @@ main {
 
     main#projects p {
         text-align: center;
+    }
+
+    .project one{
+        text-align: center;
+        width
     }
 
 }
