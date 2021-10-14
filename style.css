@@ -97,7 +97,7 @@ ul#main-nav {
     text-decoration: underline;
 }
 
-#main-nav li a::selection {
+#main-nav li a:active {
     text-decoration: underline;
 }
 
