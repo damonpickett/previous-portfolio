@@ -236,6 +236,14 @@ main {
         text-align: left;
     }
 
+    main {
+        width: 1000px;
+    }
+
+    main#projects {
+        width:100%;
+    }
+
     main#projects p {
         text-align: center;
     }
