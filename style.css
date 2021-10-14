@@ -79,6 +79,7 @@ ul#main-nav {
     display: none;
     font-size: 1.5rem;
     font-weight: 400;
+    margin-top:10px;
 }
 
 #main-nav li {
@@ -90,6 +91,14 @@ ul#main-nav {
     color: white;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+#main-nav li a:hover {
+    text-decoration: underline;
+}
+
+#main-nav li a::selection {
+    text-decoration: underline;
 }
 
 /* HEADER */
