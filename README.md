@@ -16,7 +16,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |Day 3| Core Application Structure (HTML, CSS, etc.) | Complete
 |Day 4| MVP & Bug Fixes | Complete
 |Day 5| Final Touches | Complete
-|Day 6| Present | Incomplete
+|Day 6| Present | Complete
 
 
 ## Project Description
@@ -143,5 +143,5 @@ $('.prev').on('click', function(){
 
  The issue was that I had defined 6 grid rows as being 1fr. What I didn't understand was that that meant every row would expand to match whichever row contained the most content.
 
- The solution was to simply remove my grid-template-row property and rely on grid to intelligently assign all of my wrapper's child elements to their own row. This worked because my html was structured with grid rows in mind. 
+ The solution was to simply remove my grid-template-row property and rely on grid to intelligently assign all of my wrapper's child elements to their own row. This worked because my html was structured with grid rows in mind.
 
