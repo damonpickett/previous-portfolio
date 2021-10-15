@@ -159,6 +159,10 @@ main {
     padding: 0;
 }
 
+.carousel-container {
+    display: none;
+}
+
 /* BOTTOM NAV */
 
 #bottom-nav {
@@ -191,6 +195,7 @@ main {
     }
 
     .carousel-container {
+        display: block;
         width: 650px;
         overflow: 40px auto;
         margin: 50px auto;

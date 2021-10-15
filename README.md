@@ -13,9 +13,9 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |---|---| ---|
 |Day 1| Project Description | Complete
 |Day 1| Wireframes / Priority Matrix / Timeline | Complete
-|Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Day 4| MVP & Bug Fixes | Incomplete
-|Day 5| Final Touches | Incomplete
+|Day 3| Core Application Structure (HTML, CSS, etc.) | Complete
+|Day 4| MVP & Bug Fixes | Complete
+|Day 5| Final Touches | Complete
 |Day 6| Present | Incomplete
 
 
@@ -94,10 +94,10 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Header Img/Title - Flex | H | 1.5hr|  1.5hr |
 | Format/position all elements for all pages mobile-first | H | 1.5hr|  45min |
 | CSS Grid for Project Page | H | 2.5hr | 2hr |
-| Make grid responsive | H | 2.5hr | hr |
-| JS Carousel - Research | H | 2hrs|  hr | 
-| JS Carousel - Implementation | H | 2hr | hr | hr |
-| Total | H | 23hrs| hrs |
+| Make grid responsive | H | 2.5hr | 2.5hr |
+| JS Carousel - Research | H | 2hrs|  1.5hr | 
+| JS Carousel - Implementation | H | 2hr | 1hr |
+| Total | H | 23hrs| 19.5hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
@@ -109,22 +109,39 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Total | H | 8hrs| hrs |
 
 ## Additional Libraries
- Use this section to list all supporting libraries and thier role in the project. 
+ Use this section to list all supporting libraries and their role in the project. 
 
 ## Code Snippet
 
 Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
 
-```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+```js
+// PROJECTS PAGE IMG SLIDER
+$('.next').on('click', function(){
+        let currentImg = $('.active');
+        let nextImg = currentImg.next();
+
+        if (nextImg.length){
+            currentImg.removeClass('active').css('z-index', -10);
+            nextImg.addClass('active').css('z-index', 10);
+        }
+    })
+
+$('.prev').on('click', function(){
+    let currentImg = $('.active');
+    let prevImg = currentImg.prev();
+
+    if (prevImg.length){
+        currentImg.removeClass('active').css('z-index', -10);
+        prevImg.addClass('active').css('z-index', 10);
+    }
+})
 ```
 
 ## Issues and Resolutions
- Use this section to list of all major issues encountered and their resolution.
+ When creating my projects page, once I'd created a div class for every individual project, the pace which my header occupied seemed to double.
 
-#### SAMPLE.....
-**ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
-**RESOLUTION**: Missing comma after first object in sources {} object
+ The issue was that I had defined 6 grid rows as being 1fr. What I didn't understand was that that meant every row would expand to match whichever row contained the most content.
+
+ The solution was to simply remove my grid-template-row property and rely on grid to intelligently assign all of my wrapper's child elements to their own row. This worked because my html was structured with grid rows in mind. 
 
