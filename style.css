@@ -165,7 +165,7 @@ main {
 
 #contact-form form {
     background:rgb(180, 178, 178);
-    border-radius: 3px;
+    border-radius: 5px;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-bottom: 15px;
@@ -173,6 +173,7 @@ main {
 
 #contact-form form input {
     border-radius: 3px;
+    border: none;
     font-family: 'Montserrat', sans-serif;
     padding: 3px;
 }
@@ -183,6 +184,17 @@ main {
     border-radius: 3px;
     font-family: 'Montserrat', sans-serif;
     padding: 3px;
+    border: none;
+}
+
+#contact-form form button{
+    background-color: royalblue;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    padding: 10px 30px;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 /* BOTTOM NAV */
