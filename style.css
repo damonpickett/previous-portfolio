@@ -129,7 +129,7 @@ header #header-headers h3{
 /* MAIN CONTENT */
 
 main h2 {
-    text-align: left;
+    text-align: center;
     padding-bottom: 5px;
     border-bottom: solid 2px rgb(180, 178, 178);
 }
