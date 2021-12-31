@@ -153,12 +153,6 @@ main {
     border-radius: 3px;
 }
 
-#contact {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
 .carousel-container {
     display: none;
 }
@@ -166,9 +160,10 @@ main {
 #contact-form form {
     background:rgb(180, 178, 178);
     border-radius: 5px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    margin: 15px auto 40px;
+    max-width: 400px;
 }
 
 #contact-form form input {
@@ -176,6 +171,8 @@ main {
     border: none;
     font-family: 'Montserrat', sans-serif;
     padding: 3px;
+    display: block;
+    margin: 20px auto;
 }
 
 #contact-form form textarea {
@@ -195,6 +192,10 @@ main {
     padding: 10px 30px;
     font-weight: bold;
     cursor: pointer;
+}
+
+.contact {
+    text-align: center;
 }
 
 /* BOTTOM NAV */
