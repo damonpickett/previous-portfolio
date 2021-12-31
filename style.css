@@ -148,6 +148,11 @@ main {
     font-size: 1.5rem;
 }
 
+#projects a {
+    text-decoration: none;
+    color: black;
+}
+
 .project img {
     border: solid 2px grey;
     border-radius: 3px;
