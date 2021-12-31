@@ -148,7 +148,7 @@ main {
     font-size: 1.5rem;
 }
 
-#projects a {
+.project-header a {
     text-decoration: none;
     color: black;
 }
