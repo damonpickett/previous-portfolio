@@ -64,9 +64,7 @@
             function sendEmail(){
                 console.log('click')
                 Email.send({
-                    Host : "smtp.elasticemail.com",
-                    Username : "damon.pickett@gmail.com",
-                    Password : "D54A176E146D25E51E1FDF92EA61381568B9",
+                    secureToken: "ab9df26e-5cf1-4f93-8114-55e1da6dc225"
                     To : "damon.pickett@gmail.com",
                     From : document.getElementById("email").value,
                     Subject : "New Contact Form Enquiry",
