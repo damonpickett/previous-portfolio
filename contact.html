@@ -37,12 +37,14 @@
                     <h2>Contact</h2>
                     <h3>Get in Touch</h3>
                     <div id="contact-form">
-                        <form onsubmit="sendEmail(); reset(); return false;">
-                            <input type="text" id="name" placeholder="Your name">
-                            <input type="text" id="company" placeholder="Your company">
-                            <input type="text" id="email" placeholder="Your email address" required>
-                            <input type="text" id="telephone" placeholder="Your phone #">
-                            <textarea id="message" rows="5" placeholder="How can I help you?"></textarea>
+                        <form action="https://formsubmit.co/damon.pickett@gmail.com" method="POST">
+                            <input type="text" name="name" placeholder="Your name">
+                            <input type="text" name="company" placeholder="Your company">
+                            <input type="email" name="email" placeholder="Your email address" required>
+                            <input type="text" name="telephone" placeholder="Your phone #">
+                            <input type="hidden" name="_next" value="https://damonpickett.github.io/damonpickett/thankyou.html">
+                            <input type="hidden" name="_subject" value="New enquiry from portfolio site">
+                            <textarea name="message" rows="5" placeholder="How can I help you?"></textarea>
                             <button type="submit">Send</button>
                         </form>
                     </div>
@@ -59,26 +61,5 @@
         </div>
         <script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
         <script src="app.js" async defer></script>
-        <script src="https://smtpjs.com/v3/smtp.js"></script>
-        <script>
-            function sendEmail(){
-                console.log('click')
-                Email.send({
-                    Host : "smtp.elasticemail.com",
-                    Username : "damon.pickett@gmail.com",
-                    Password : "D54A176E146D25E51E1FDF92EA61381568B9",
-                    To : "damon.pickett@gmail.com",
-                    From : document.getElementById("email").value,
-                    Subject : "New Contact Form Enquiry",
-                    Body : "Name: " + document.getElementById("name").value
-                           + "<br> Company: " + document.getElementById("company").value 
-                           + "<br> Email: " + document.getElementById("email").value
-                           + "<br> Telephone: " + document.getElementById("telephone").value
-                           + "<br> Message: " + document.getElementById("message").value 
-                }).then(
-                message => alert('Thank you, your message has been sent.')
-                );
-            }
-        </script>
     </body>
 </html>
