@@ -1,25 +1,26 @@
-// HAMBURGER MENU
-$('.toggle').on('click', function () {
-    $('#nav-bar').toggleClass('nav-extend')
-});
-
-// PROJECTS PAGE IMG SLIDER
-$('.next').on('click', function(){
-        let currentImg = $('.active');
-        let nextImg = currentImg.next();
-
-        if (nextImg.length){
-            currentImg.removeClass('active').css('z-index', -10);
-            nextImg.addClass('active').css('z-index', 10);
-        }
-    })
-
-$('.prev').on('click', function(){
-    let currentImg = $('.active');
-    let prevImg = currentImg.prev();
-
-    if (prevImg.length){
-        currentImg.removeClass('active').css('z-index', -10);
-        prevImg.addClass('active').css('z-index', 10);
+function showAbout() {
+    const x = document.getElementById("about");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
     }
-})
+}
+
+function showProjects() {
+    const x = document.getElementById("projects");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+function showContact() {
+    const x = document.getElementById("contact");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}

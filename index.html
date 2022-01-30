@@ -19,6 +19,8 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
     </head>
     <body>
         <div id='wrapper'>
@@ -46,17 +48,22 @@
                 <p>As a Full-Stack Developer, I build applications to help businesses promote and sell their products and services. I bring over a decade’s worth of experience in effective communication having worked in various customer service roles, including management.</p>
             </div>
             <div class='section'>
-                <h2>About</h2>
+                <h2><a onClick='showAbout()'>About</a></h2>
+                <div id='about'>
                     <p>Up until the 4th quarter of 2021, I worked as a Quality Assurance Lead in the Patient Services Department at Tilray, a licensed producer of medicinal cannabis. Working in a call centre is an excellent place to hone one’s communication skills, and this was my primary focus for the last 3 years. But I eventually reached a point where I felt that if I wanted to continue to grow, I would need a new challenge. I also reasoned that while communication skills are invaluable, my skill set was missing something.</p>
                     <p>While at Tilray I took it upon myself to gather data on the quality of our department’s work and to represent that data visually through Microsoft Excel. The time I spent building these data visualizations was one of the most satisfying work experiences I’ve ever had. The time flew by and I often found myself having worked past the end of my shift. This was when I started to think about programming.</p>
                     <p>In September of 2021 I took a leave of absence from my role at Tilray and began the Software Engineering Immersive coding bootcamp through <a href="https://generalassemb.ly/" target="_blank">General Assembly</a>. I graduated in December. Combined with my experience in effective communication, I want to build applications to help businesses promote and sell their products and services.</p>
+                </div>
             </div>
             <div class='section'>
-                <h2>Projects</h2>
-                <p>[a jquery slider featuring my work]</p>
+                <h2><a onClick='showProjects()'>Projects</a></h2>
+                <div id='projects'>
+                    <p>[a jquery slider featuring my work]</p>
+                </div>
             </div>
             <div class='section'>
-                <h2>Contact</h2>
+                <h2><a onClick='showContact()'>Contact</a></h2>
+                <div id='contact'>
                     <div id="contact-form">
                         <form action="https://formsubmit.co/damon.pickett@gmail.com" method="POST">
                             <input type="text" name="name" placeholder="Your name">
@@ -70,9 +77,11 @@
                         </form>
                     </div>
                     <p class="contact">Please feel free to connect with me on <a href="https://www.linkedin.com/in/damon-pickett-6b7596112/" target='_blank'>Linkedin</a></p>
+                </div>
             </div>
             <footer>
-                <p>[row of images for links to github and linkedin]</p>
+                <a href='https://www.linkedin.com/in/damon-pickett/' alt='linkedin' target='_blank'><i class="devicon-linkedin-plain"></i></a>
+                <a href='https://github.com/damonpickett' alt='github' target='_blank'><i class="devicon-github-original"></i></a>
             </footer>
         </div>
         <script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
