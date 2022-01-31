@@ -43,6 +43,8 @@ a:hover {
 .section {
     margin-bottom: 45px;
     line-height: 1.4rem;
+    border-bottom: solid white 1px;
+    padding-bottom: 10px;
 }
 
 .section h2 {
@@ -51,22 +53,46 @@ a:hover {
     font-size: 1.9rem;
 }
 
-.section h2 a {
-    color: white;
-}
-
 .section p {
     margin-bottom: 20px;
 }
 
 #about, #projects, #contact {
+    transition: display 3s;
     display: none;
+}
+
+.arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 5px;
+    width: 5px;
+    height: 5px;
+    margin-right: 7px;
+    transition: transform 250ms;
+    transform: rotate(45deg);
+}
+
+/* .down {
+    transform: rotate(45deg);
+}
+
+.up {
+    transform: rotate(-135deg);
+} */
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
 }
 
 /* HEADER */
 
 #header {
     padding-top: 10px;
+    border-bottom: none;
+    text-align: center;
 }
 
 #header h1 {
@@ -99,6 +125,16 @@ a:hover {
 #promotion li {
     font-size: 1.2rem;
     font-weight: 500;
+}
+
+/* ABOUT */
+
+#about p {
+    text-align: left;
+}
+
+.brand-statement {
+    font-style: italic;
 }
 
 /* CONTACT FORM */

@@ -1,26 +1,15 @@
-function showAbout() {
-    const x = document.getElementById("about");
-    if (x.style.display === "none") {
-        x.style.display = "block";
+function showContent(section) {
+    const s = document.getElementById(section);
+    if (s.style.display === "block") {
+        s.style.display = "none";
     } else {
-        x.style.display = "none";
+        s.style.display = "block";
     }
-}
-
-function showProjects() {
-    const x = document.getElementById("projects");
-    if (x.style.display === "none") {
-        x.style.display = "block";
+    const a = document.getElementById(section + "-arrow");
+    if (a.style.transform === "rotate(-135deg)") {
+        a.style.transform = "rotate(45deg)";
     } else {
-        x.style.display = "none";
+        a.style.transform = "rotate(-135deg)";
     }
-}
-
-function showContact() {
-    const x = document.getElementById("contact");
-    if (x.style.display === "none") {
-        x.style.display = "block";
-    } else {
-        x.style.display = "none";
-    }
+    
 }
