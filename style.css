@@ -58,8 +58,10 @@ a:hover {
 }
 
 #about, #projects, #contact {
-    transition: display 3s;
-    display: none;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s;
+    height: 510px;
 }
 
 .arrow {
@@ -73,14 +75,6 @@ a:hover {
     transition: transform 250ms;
     transform: rotate(45deg);
 }
-
-/* .down {
-    transform: rotate(45deg);
-}
-
-.up {
-    transform: rotate(-135deg);
-} */
 
 .section-header {
     display: flex;
@@ -142,8 +136,8 @@ a:hover {
 #contact-form input, textarea {
     background: white;
     display:block;
-    margin: 15px auto 5px;
-    padding: 5px;
+    margin: 15px auto 25px;
+    padding: 7px;
     border-radius: 5px;
     border: none;
     color: rgb(49, 48, 48)
@@ -155,7 +149,7 @@ a:hover {
 
 #contact-form button {
     padding: 10px 30px;
-    margin-bottom: 15px;
+    margin-bottom: 45px;
     border-radius: 5px;
     border: none;
     background-color:rgb(0, 190, 248);
