@@ -44,7 +44,7 @@ a:hover {
     margin-bottom: 45px;
     line-height: 1.4rem;
     border-bottom: solid white 1px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 .section h2 {
@@ -55,13 +55,6 @@ a:hover {
 
 .section p {
     margin-bottom: 20px;
-}
-
-#about, #projects, #contact {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 1s;
-    height: 510px;
 }
 
 .arrow {
@@ -123,6 +116,13 @@ a:hover {
 
 /* ABOUT */
 
+#about {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s;
+    height: 1010px;
+}
+
 #about p {
     text-align: left;
 }
@@ -131,7 +131,30 @@ a:hover {
     font-style: italic;
 }
 
+/* PROJECTS */
+
+#projects {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s;
+}
+
+#slider {
+    border: 3px solid white;
+    border-radius: 3px;
+    width:315px;
+    height: 500px;
+    margin: 10px auto 0;
+}
+
 /* CONTACT FORM */
+
+#contact {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s;
+    height: 500px;
+}
 
 #contact-form input, textarea {
     background: white;

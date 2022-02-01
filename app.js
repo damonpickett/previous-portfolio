@@ -1,9 +1,24 @@
 function showContent(section) {
     const s = document.getElementById(section);
-    if (s.style.maxHeight === "510px") {
-        s.style.maxHeight = "0";
-    } else {
-        s.style.maxHeight = "510px";
+
+    if (section === 'about') {
+        if (s.style.maxHeight === "1010px") {
+            s.style.maxHeight = "0";
+        } else {
+            s.style.maxHeight = "1010px";
+        }
+    } else if (section === 'projects') {
+        if (s.style.maxHeight === "520px") {
+            s.style.maxHeight = "0";
+        } else {
+            s.style.maxHeight = "520px";
+        }
+    } else { 
+        if (s.style.maxHeight === "500px") {
+            s.style.maxHeight = "0";
+        } else {
+            s.style.maxHeight = "500px";
+        }
     }
     const a = document.getElementById(section + "-arrow");
     if (a.style.transform === "rotate(-135deg)") {
