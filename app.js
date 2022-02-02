@@ -2,10 +2,10 @@ function showContent(section) {
     const s = document.getElementById(section);
 
     if (section === 'about') {
-        if (s.style.maxHeight === "1010px") {
+        if (s.style.maxHeight === "530px") {
             s.style.maxHeight = "0";
         } else {
-            s.style.maxHeight = "1010px";
+            s.style.maxHeight = "530px";
         }
     } else if (section === 'projects') {
         if (s.style.maxHeight === "520px") {
