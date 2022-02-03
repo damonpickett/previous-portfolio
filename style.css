@@ -159,33 +159,31 @@ a:hover {
 
 #slider {
     width:315px;
-    height: 500px;
+    height: 510px;
     border: 3px solid white;
     border-radius: 3px;
     margin: 10px auto;
     position: relative;
 }
 
-.arrow-background-prev {
+.arrow-background-prev, .arrow-background-next {
     height: 30px;
     width: 30px;
     background-color:white;
     position: absolute;
-    margin-left: 5px;
-    margin-top: 250px;
     border-radius: 5px;
     opacity: 0.8;
+    z-index: 100;
+}
+
+.arrow-background-prev {
+    margin-left: 5px;
+    margin-top: 250px;
 }
 
 .arrow-background-next {
-    height: 30px;
-    width: 30px;
-    background-color:white;
-    position: absolute;
     margin-left: 280px;
     margin-top: 250px;
-    border-radius: 5px;
-    opacity: 0.8;
 }
 
 .prev, .next {
@@ -196,6 +194,7 @@ a:hover {
   margin-top: 10px;
   background-color: white;
   opacity: 0.8;
+  z-index: 100;
 }
 
 .prev {
@@ -210,10 +209,17 @@ a:hover {
 
 #slider img {
     display: none;
+    transition: display 1s;
 }
 
 #slider img.active {
     display: inline;
+}
+
+.slide {
+    margin: 0;
+    padding: 0;
+    position: absolute;
 }
 
 /* CONTACT FORM */
