@@ -31,24 +31,15 @@ function showContent(section) {
 // JQUERY SLIDER
 
 $(document).ready(function(){
+    x = 0
     $('.next').on('click', function(){
-        let currentImg = $('.active')
-        let nextImg = currentImg.next()
-
-        if(nextImg.length){
-            currentImg.removeClass('active').css('z-index', -10)
-            nextImg.addClass('active').css('z-index', 10)
-        }
+        x = (x <= 100) ? (x + 100) : 0;
+        $('figure').css('left', -x+'%')
+        console.log(x)
     })
 
     $('.prev').on('click', function(){
-        let currentImg = $('.active')
-        let prevImg = currentImg.prev()
-
-        if(prevImg.length){
-            currentImg.removeClass('active').css('z-index', -10)
-            prevImg.addClass('active').css('z-index', 10)
-        }
+        
     })
 
 })

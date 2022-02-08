@@ -158,12 +158,13 @@ a:hover {
 }
 
 #slider {
-    width:315px;
+    width: 315px;
     height: 510px;
     border: 3px solid white;
     border-radius: 3px;
     margin: 10px auto;
     position: relative;
+    overflow: hidden;
 }
 
 .arrow-background-prev, .arrow-background-next {
@@ -195,6 +196,7 @@ a:hover {
   background-color: white;
   opacity: 0.8;
   z-index: 100;
+  cursor: pointer;
 }
 
 .prev {
@@ -207,19 +209,18 @@ a:hover {
     transform: rotate(-45deg);
   }
 
-#slider img {
-    display: none;
-    transition: display 1s;
+.slider figure {
+    margin: 0px;
+    position: relative;
+    left: 0;
+    width: 300%;
+    transition: 1s ease-in-out;
 }
 
-#slider img.active {
-    display: inline;
-}
-
-.slide {
+figure img {
+    float: left;
     margin: 0;
-    padding: 0;
-    position: absolute;
+    width: 100%;
 }
 
 /* CONTACT FORM */
