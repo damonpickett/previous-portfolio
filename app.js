@@ -1,25 +1,46 @@
-// HAMBURGER MENU
-$('.toggle').on('click', function () {
-    $('#nav-bar').toggleClass('nav-extend')
-});
+function showContent(section) {
+    const s = document.getElementById(section);
 
-// PROJECTS PAGE IMG SLIDER
-$('.next').on('click', function(){
-        let currentImg = $('.active');
-        let nextImg = currentImg.next();
-
-        if (nextImg.length){
-            currentImg.removeClass('active').css('z-index', -10);
-            nextImg.addClass('active').css('z-index', 10);
+    if (section === 'about') {
+        if (s.style.maxHeight === "530px") {
+            s.style.maxHeight = "0";
+        } else {
+            s.style.maxHeight = "530px";
         }
+    } else if (section === 'projects') {
+        if (s.style.maxHeight === "530px") {
+            s.style.maxHeight = "0";
+        } else {
+            s.style.maxHeight = "530px";
+        }
+    } else { 
+        if (s.style.maxHeight === "500px") {
+            s.style.maxHeight = "0";
+        } else {
+            s.style.maxHeight = "500px";
+        }
+    }
+    const a = document.getElementById(section + "-arrow");
+    if (a.style.transform === "rotate(-135deg)") {
+        a.style.transform = "rotate(45deg)";
+    } else {
+        a.style.transform = "rotate(-135deg)";
+    }
+}
+
+// JQUERY SLIDER
+
+$(document).ready(function(){
+    x = 0
+    $('.next').on('click', function(){
+        x = (x <= 100) ? (x + 100) : 0;
+        $('figure').css('left', -x+'%')
+        console.log(x)
     })
 
-$('.prev').on('click', function(){
-    let currentImg = $('.active');
-    let prevImg = currentImg.prev();
+    $('.prev').on('click', function(){
+        x = (x >= 100) ? (x - 100) : 0;
+        $('figure').css('left', -x+'%')
+    })
 
-    if (prevImg.length){
-        currentImg.removeClass('active').css('z-index', -10);
-        prevImg.addClass('active').css('z-index', 10);
-    }
 })
