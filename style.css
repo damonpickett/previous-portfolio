@@ -296,3 +296,18 @@ footer i {
     background-color: rgb(0, 8, 248);
 }
 
+/* THANK YOU PAGE */
+
+#thankyou {
+    margin-top: 100px;
+    font-size: 2rem;
+}
+
+#thankyou h1 {
+    margin-bottom: 20px;
+}
+
+#thankyou p {
+    margin-bottom: 20px;
+}
+
