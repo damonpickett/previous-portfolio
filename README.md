@@ -5,10 +5,6 @@ A portfolio of my work as a software engineer.
 
 ## Project Schedule
 
-This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
-
-You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
-
 |  Day | Deliverable | Status
 |---|---| ---|
 |Day 1| Project Description | Complete
@@ -22,8 +18,6 @@ You are **responsible** for scheduling time with your squad to seek approval for
 ## Project Description
 
 I am building a portfolio website to showcase my work as a front-end developer. The site will be built with a minimal,mobile-first design to allow for clarity and easy navigation.
-
-There will be an api to inform the user of the weather in their area. I will use JavaScript to convert the hamburger menu icon into a navigation menu. I will also use JavaScript to emphasize the images on the projects page when the user hovers over them with a mouse.
 
 ## Google Sheet
 
@@ -46,16 +40,6 @@ Wireframing Resources:
 
 
 ## Time/Priority Matrix 
-
-[Link](https://res.cloudinary.com/jkeohan/image/upload/a_270/v1591621734/project1_matrix_ocy5gc_h1kg0m.jpg)
-
-Include a full list of features that have been prioritized based on the `Time and Priority` Matix.  This involves drawing a a square.  In the middle of the square, on the x axis draw a line.  The most left part of the line should start with 0hrs and the end of the line should include 2hrs.  This line will be used to estimate how much time any one feature will take to complete. 
-
-Now draw a vertical line on the y axis.  The top of this line should have `High` and the bottom `Low`.  This line will be used to assign a priority to to each feature you wish to include in the project.  
-
-Now create a separate list starting with A and assign it one of the features.  Continue to assign each feature a letter.  Once complete add each letter to the matrix assigning based on what your feel it's prioirty is an how long it will take to implement. If any one feature takes longer than 2hrs to complete than break it down into smaller tasks and reassign them a new letter. 
-
-Once complete tally up the time and determine how long the project will take to complete. Now break those features into MVP and PostMVP so you can guarantee you will have a fully functioning project to demo. 
 
 [Damon's Priority Matrix](https://imgur.com/a/7k4lXx2)
 
