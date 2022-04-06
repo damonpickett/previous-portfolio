@@ -35,7 +35,6 @@ $(document).ready(function(){
     $('.next').on('click', function(){
         x = (x <= 100) ? (x + 100) : 0;
         $('figure').css('left', -x+'%')
-        console.log(x)
     })
 
     $('.prev').on('click', function(){
